@@ -26,6 +26,12 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
+    apiExampleKey: "",
+    apiDatabaseUrl: "",
+    public: {
+      betterAuthUrl: "",
+      turnstileSiteKey: ""
+    },
     turnstile: {
       // This can be overridden at runtime via the NUXT_TURNSTILE_SECRET_KEY
       // environment variable.
